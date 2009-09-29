@@ -8,9 +8,6 @@ class Com < Sinatra::Application
   
   set :root, APP_ROOT  
 
-  get '/' do
-    haml :index
-  end
 
 end
 
