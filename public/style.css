@@ -6,6 +6,7 @@ p {
     font: 70px Helvetica, Arial, sans-serif;
     letter-spacing:-.08em;
     font-weight: 700;
+    line-height:.8em;
 }
 
 a {
