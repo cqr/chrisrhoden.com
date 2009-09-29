@@ -6,8 +6,11 @@ require 'haml'
 
 class Com < Sinatra::Application
   
-  set :root, APP_ROOT  
+  set :root, APP_ROOT
 
+get '/' do
+  erb :index
+end
 
 end
 
